@@ -1,3 +1,5 @@
+![thumbnail-Desafio Java](218160231-11c3a759-711e-484d-a856-b5977b065ec6.png)
+
 # Desafio: Controle de Conta Bancária Virtual
 
 ## Sobre o Curso 
@@ -11,11 +13,17 @@ O desafio apresentado neste README faz parte da aula "Consolidando conhecimentos
 
 ## Descrição do Desafio 
 
-O desafio consiste em criar um programa no IntelliJ que simule o controle de uma conta bancária virtual. O programa deve inicializar os dados do cliente, como nome, tipo de conta e saldo inicial, e apresentar um menu de opções para o usuário: 
-1. Consultar saldos: Exibe o saldo atual da conta.
-2. Receber valor: Permite que o usuário informe um valor a ser recebido, atualizando o saldo da conta. 
-3. Transferir valor: Permite que o usuário informe um valor a ser transferido, atualizando o saldo da conta. 
-4. Sair: Encerra a execução do programa.
+O desafio consiste em criar um programa no IntelliJ que simule o controle de uma conta bancária virtual. O programa deve inicializar os dados do cliente, como nome, tipo de conta e saldo inicial, e apresentar um menu de opções para o usuário:
+
+## Objetivos
+
+1. Criar um cabeçalho inicial com os dados do cliente (Nome, Tipo da Conta e Saldo)
+2. Criar um menu que descreve as operações. Aqui você pode escolher o nome de método que mais lhe agradar, como saca (ou transfere, enviaPix) para simular a retirada de valores da conta e deposita (ou recebeTransferencia, recebePix) para representar a entrada de valores na conta.
+3. O menu deve ter quatro opções: a de entrada de valor, saída de valor, consulta de saldo e finalização da aplicação.
+4. Lembre-se que para fazer a saída de valores, é necessário ter saldo suficiente.
+5. O menu deve aparecer continuamente até que o usuário digite a opção para sair.
+6. Caso ele digite qualquer opção que não seja correta, deve apresentar a mensagem de opção inválida.
+7. Usaremos a classe Scanner para fazer a leitura da opção do usuário.
 
 Caso o usuário selecione uma opção inválida, o programa deve exibir a mensagem "Opção inválida". Os métodos do programa devem ser nomeados de acordo com as operações que eles realizam, como `recebeTransferencia()`, `fazTransferencia()`, `enviaPix()` e `recebePix()`. 
 
